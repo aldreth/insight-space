@@ -1,8 +1,8 @@
 {
-  "name": "eleventy-excellent",
+  "name": "insight-space",
   "version": "4.1.10",
-  "description": "Eleventy starter built around the workflow suggested by Andy Bell's buildexcellentwebsit.es.",
-  "author": "Lene Saile",
+  "description": "Source for https://insightspace.co.uk",
+  "author": "Edward Andrews-Hodgson",
   "license": "ISC",
   "type": "module",
   "engines": {
@@ -22,7 +22,7 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/madrilene/eleventy-excellent.git"
+    "url": "https://github.com/aldreth/insight-space.git"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.0",
