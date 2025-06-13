@@ -1,34 +1,47 @@
+const bottom = [
+  {
+    text: 'Imprint',
+    url: '/imprint/'
+  },
+  {
+    text: 'Privacy',
+    url: '/privacy/'
+  }
+];
+
+if (process.env.NODE_ENV == 'development') {
+  bottom.unshift({
+    text: 'Style guide',
+    url: '/styleguide/'
+  });
+}
+
 export default {
   top: [
+    {
+      text: 'Home',
+      url: '/'
+    },
     {
       text: 'About',
       url: '/about/'
     },
     {
-      text: 'Docs',
-      url: '/get-started/'
+      text: 'Exec coaching',
+      url: '/exec-coaching/'
     },
     {
-      text: 'Built with',
-      url: '/built-with/'
+      text: 'Team/Group coaching',
+      url: '/team-coaching/'
     },
     {
-      text: 'Blog',
-      url: '/blog/'
+      text: 'Organisational Development',
+      url: '/organisational-development/'
+    },
+    {
+      text: 'Contact',
+      url: '/contact/'
     }
   ],
-  bottom: [
-    {
-      text: 'Style guide',
-      url: '/styleguide/'
-    },
-    {
-      text: 'Imprint',
-      url: '/imprint/'
-    },
-    {
-      text: 'Privacy',
-      url: '/privacy/'
-    }
-  ]
+  bottom
 };

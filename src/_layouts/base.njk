@@ -6,19 +6,19 @@
 
   <head>
     <!-- 1 charset/viewport -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <!-- 2 title -->
     <title>
       {%- if title -%}
-        {{- title -}}
+        {{- title -}}&nbsp;|&nbsp;{{- meta.siteName -}}
       {%- else -%}
         {{- meta.siteName -}}
       {%- endif -%}
     </title>
 
-    <base href="{{ page.url }}" />
+    <base href="{{ page.url }}"/>
 
     <!-- 3 synchronous js  -->
     {% include "head/js-inline.njk" %}
@@ -42,7 +42,7 @@
 
   <body class="{{ layout }}">
     {% set indicateActiveHome %}
-      {% if page.url == "/" %}
+    {% if page.url == "/" %}
         aria-current=page
       {% endif %}
     {% endset %}
@@ -51,9 +51,5 @@
     <main id="main" class="flow">{{ content | safe }}</main>
 
     {% include "partials/footer.njk" %}
-    {%- if meta.easteregg -%}
-      <script type="module" src="/assets/scripts/components/custom-easteregg.js"></script>
-      <custom-easteregg></custom-easteregg>
-    {%- endif -%}
   </body>
 </html>
