@@ -4,6 +4,7 @@
     padding: none;
     margin-bottom: var(--space-xl);
     p {
+      font-size: var(--size-step-0);
       padding-left: var(--space-m-l);
       padding-bottom: var(--space-m-l);
       padding-right: var(--space-m-l);

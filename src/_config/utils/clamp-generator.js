@@ -14,7 +14,7 @@
 import viewports from '../../_data/designTokens/viewports.json';
 
 export const clampGenerator = tokens => {
-  const rootSize = 16;
+  const rootSize = 18;
 
   return tokens.map(({name, min, max}) => {
     if (min === max) {
