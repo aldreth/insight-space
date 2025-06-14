@@ -1,0 +1,24 @@
+.cover-image {
+  --spot-color: transparent;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+
+  background-color: transparent;
+
+  &.cover-image--blank {
+    height: 10em;
+  }
+
+  .cover-image__inner {
+    padding-block-end: var(--space-l-xl);
+    padding-block-start: var(--space-l-xl);
+  }
+
+  p:not(:first-of-type) {
+    margin-top: var(--space-xs-s);
+  }
+}

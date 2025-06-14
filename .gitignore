@@ -5,6 +5,8 @@ node_modules
 dist
 src/_includes/css
 src/_includes/scripts
+src/assets/images/cover-images/output
+# src/_includes/head/cover-images.njk
 
 # cache
 .cache
