@@ -6,8 +6,8 @@
 
   <head>
     <!-- 1 charset/viewport -->
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- 2 title -->
     <title>
@@ -18,7 +18,7 @@
       {%- endif -%}
     </title>
 
-    <base href="{{ page.url }}"/>
+    <base href="{{ page.url }}" />
 
     <!-- 3 synchronous js  -->
     {% include "head/js-inline.njk" %}
@@ -38,14 +38,14 @@
 
     <!-- 8 meta tags, icons, open graph etc.  -->
     {% include "head/meta-info.njk" %}
-    
+
     <!-- 9 cover image css  -->
     {% include "head/cover-images.njk" %}
   </head>
 
   <body class="{{ layout }}">
     {% set indicateActiveHome %}
-    {% if page.url == "/" %}
+      {% if page.url == "/" %}
         aria-current=page
       {% endif %}
     {% endset %}
