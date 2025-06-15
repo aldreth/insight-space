@@ -20,23 +20,23 @@ export default {
     },
     {
       text: 'About',
-      url: '/about/'
+      url: '/about'
     },
     {
       text: 'Exec coaching',
-      url: '/exec-coaching/'
+      url: '/exec-coaching'
     },
     {
       text: 'Team/Group coaching',
-      url: '/team-coaching/'
+      url: '/team-coaching'
     },
     {
       text: 'Organisational Development',
-      url: '/organisational-development/'
+      url: '/organisational-development'
     },
     {
       text: 'Contact',
-      url: '/contact/'
+      url: '/contact'
     }
   ],
   bottom

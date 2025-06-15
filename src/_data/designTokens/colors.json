@@ -61,6 +61,14 @@
     {
       "name": "Gold Subdued",
       "value": "#f1c15b"
+    },
+    {
+      "name": "Fay Green",
+      "value": "#4fb179"
+    },
+    {
+      "name": "Fay Green Complementary",
+      "value": "#0f0081"
     }
   ]
 }
