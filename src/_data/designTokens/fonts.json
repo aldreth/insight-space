@@ -9,8 +9,8 @@
     },
     {
       "name": "Base",
-      "description": "Base font stack for body text. Atkinson Hyperlegible, named after the founder of the Braille Institute, has been developed specifically to increase legibility for readers with low vision, and to improve comprehension.",
-      "value": ["Atkinson Hyperlegible", "system-ui", "sans-serif"]
+      "description": "",
+      "value": ["Raleway", "system-ui", "sans-serif"]
     },
     {
       "name": "Mono",
