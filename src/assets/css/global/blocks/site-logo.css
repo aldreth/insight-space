@@ -1,6 +1,8 @@
 .logo {
   --gutter: var(--space-xs);
+  color: var(--color-text);
+  font-size: var(--size-step-3);
+  font-variant-caps: all-small-caps;
   padding: var(--space-s) 0;
-  font-size: var(--size-step-0);
   text-decoration: none;
 }
