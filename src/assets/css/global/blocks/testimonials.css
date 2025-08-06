@@ -1,24 +1,16 @@
 .testimonials {
   blockquote {
     border-inline-start: none;
-    padding: none;
-    margin-bottom: var(--space-xl);
     p {
       font-size: var(--size-step-0);
       padding-left: var(--space-m-l);
       padding-bottom: var(--space-m-l);
       padding-right: var(--space-m-l);
-      border-inline-start: 0.5rem solid var(--color-primary);
+      border-inline-start: 0.5rem solid var(--color-fay-green);
     }
     p.caption {
-      padding-top: 0;
+      padding-bottom: 0;
       margin-top: 0;
-    }
-  }
-
-  blockquote:nth-child(2n) {
-    p {
-      border-inline-start: 0.5rem solid var(--color-blue);
     }
   }
 }
