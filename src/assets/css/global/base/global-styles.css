@@ -37,11 +37,11 @@ h3 {
 }
 
 h1 {
-  font-size: var(--size-step-6);
+  font-size: var(--size-step-2);
 }
 
 h2 {
-  font-size: var(--size-step-3);
+  font-size: var(--size-step-2);
 }
 
 h3 {
